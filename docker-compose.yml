@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  intl-phonebook-ui:
+    container_name: intl-pb-ui-cntr
+    build: ./intl-phonebook-ui/
+    volumes:
+      - './:/usr/src/app'
+    ports:
+      - "4200:4200"
+    command: >
+      bash -c "npm start"
+
+  intl-phonebook-svc:
+    container_name: intl-pb-svc-cntr
+    build: ./Int. Phonebook BE/
+    ports:
+      - "8080:8080"
