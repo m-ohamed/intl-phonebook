@@ -1,7 +1,9 @@
 [submodule "intl-phonebook-svc"] 
-  path = intl-phonebook-svc 
-  url = https://github.com/m-ohamed/intl-phonebook-svc.git
+	path = intl-phonebook-svc
+	url = https://github.com/m-ohamed/intl-phonebook-svc.git
+	branch = master
 
 [submodule "intl-phonebook-ui"] 
-  path = intl-phonebook-ui 
-  url = https://github.com/m-ohamed/intl-phonebook-ui.git
+	path = intl-phonebook-ui
+	url = https://github.com/m-ohamed/intl-phonebook-ui.git
+	branch = master
