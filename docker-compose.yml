@@ -13,6 +13,6 @@ services:
 
   intl-phonebook-svc:
     container_name: intl-pb-svc-cntr
-    build: ./Int. Phonebook BE/
+    build: ./intl-phonebook-svc/
     ports:
       - "8080:8080"
